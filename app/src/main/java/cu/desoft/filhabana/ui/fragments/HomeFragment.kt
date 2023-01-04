@@ -6,9 +6,13 @@ import android.view.*
 import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import cu.desoft.filhabana.MainActivity
 import cu.desoft.filhabana.R
+import cu.desoft.filhabana.data.Datasource
 import cu.desoft.filhabana.databinding.FragmentHomeBinding
+import cu.desoft.filhabana.ui.adapters.OptionAdapter
 
 class HomeFragment : Fragment() {
 
@@ -26,6 +30,16 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         setHasOptionsMenu(true)
         initAppLogo()
+        initRecyclerOptions()
+    }
+
+    private fun initRecyclerOptions() {
+        val options_names = resources.getStringArray(R.array.guest_artist_names)
+        val optionsList = Datasource().loadHomeOptions(options_names)
+        val optionsRecyclerView: RecyclerView = binding.recyclerHomeOptions
+        val optionAdapter = OptionAdapter(optionsList, context)
+        optionsRecyclerView.layoutManager = GridLayoutManager(context, 2)
+        optionsRecyclerView.adapter = optionAdapter
     }
 
     fun initAppLogo() {

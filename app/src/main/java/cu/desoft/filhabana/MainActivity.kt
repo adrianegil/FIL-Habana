@@ -31,8 +31,6 @@ class MainActivity : AppCompatActivity() {
     fun configAppBar() {
         setSupportActionBar(mainActionBar)
         mainActionBar.setLogo(R.drawable.ic_log)
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
         myAppBarConfiguration = AppBarConfiguration.Builder(
             R.id.nav_homeFragment,
         )

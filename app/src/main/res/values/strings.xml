@@ -1,8 +1,18 @@
 <resources>
     <string name="app_name">FIL Habana</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="about_us">Acerca de</string>
     <string name="description">Descripción</string>
     <string name="exit">Salir</string>
+
+    <!-- TODO: LISTADO DE OPCIONES DE LA PANTALLA PRINCIPAL-->
+    <string name="option1">Información General</string>
+    <string name="option2">Mapa</string>
+    <string name="option3">Subsedes</string>
+    <string name="option4">Géneros Literarios</string>
+    <string name="option5">Invitados Extranjeros</string>
+    <string name="option6">Programación Infantil</string>
+    <string name="option7">Programación Literaria</string>
+    <string name="option8">Programación Artística</string>
+
 </resources>
