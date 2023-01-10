@@ -2,8 +2,8 @@ package cu.desoft.filhabana.data.model
 
 import androidx.annotation.DrawableRes
 
-class Subsede(
-    val stringName: String,
+data class Subsede(
+    val stringLocation: String,
     @DrawableRes
     val imageResourceId: Int
 )

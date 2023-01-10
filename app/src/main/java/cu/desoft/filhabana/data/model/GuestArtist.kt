@@ -1,4 +1,9 @@
 package cu.desoft.filhabana.data.model
 
-class GuestArtist {
-}
+import androidx.annotation.DrawableRes
+
+class GuestArtist(
+    val stringName: String,
+    @DrawableRes
+    val imageResourceId: Int
+)

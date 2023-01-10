@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import cu.desoft.filhabana.MainActivity
+import cu.desoft.filhabana.ui.activities.MainActivity
 import cu.desoft.filhabana.R
 import cu.desoft.filhabana.databinding.FragmentAboutBinding
 
@@ -24,7 +24,7 @@ class AboutFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.descrip.setOnClickListener {
-            MainActivity.navController.navigate(R.id.nav_descriptionFragment)
+            MainActivity.navController.navigate(R.id.go_descriptionFragment)
         }
     }
 

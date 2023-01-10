@@ -17,7 +17,9 @@
 package cu.desoft.filhabana.data
 
 import cu.desoft.filhabana.R
+import cu.desoft.filhabana.data.model.GuestArtist
 import cu.desoft.filhabana.data.model.HomeOption
+import cu.desoft.filhabana.data.model.Subsede
 
 /**
  * [Datasource] generates a list of [Affirmation]
@@ -37,5 +39,25 @@ class Datasource() {
         )
     }
 
+    fun loadSubsedes(listLocationNames: Array<String>): List<Subsede> {
+        return listOf<Subsede>(
+            Subsede(listLocationNames.get(0), R.drawable.product),
+            Subsede(listLocationNames.get(1), R.drawable.product),
+            Subsede(listLocationNames.get(2), R.drawable.product),
+            Subsede(listLocationNames.get(3), R.drawable.product),
+            Subsede(listLocationNames.get(4), R.drawable.product),
+            Subsede(listLocationNames.get(5), R.drawable.product),
+        )
+    }
+
+    fun loadGuestArtists(listLocationNames: Array<String>): List<GuestArtist> {
+        return listOf<GuestArtist>(
+            GuestArtist(listLocationNames.get(0), R.drawable.product),
+            GuestArtist(listLocationNames.get(1), R.drawable.product),
+            GuestArtist(listLocationNames.get(2), R.drawable.product),
+            GuestArtist(listLocationNames.get(3), R.drawable.product),
+            GuestArtist(listLocationNames.get(4), R.drawable.product),
+        )
+    }
 }
 

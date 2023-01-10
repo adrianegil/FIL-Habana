@@ -3,13 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/nav_Send_Comment"
-        android:title="Enviar Comentarios" />
-    <item
-        android:id="@+id/nav_aboutFragment"
-        android:title="@string/about_us" />
-    <item
-        android:id="@+id/nav_Exit"
-        android:title="@string/exit" />
+        android:id="@+id/ic_mores"
+        android:icon="@drawable/ic_more"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/nav_Send_Comment"
+                android:icon="@drawable/ic_send"
+                android:title="Enviar Comentarios" />
+            <item
+                android:id="@+id/nav_aboutFragment"
+                android:icon="@drawable/ic_info"
+                android:title="@string/about_us" />
+            <item
+                android:id="@+id/nav_Exit"
+                android:icon="@drawable/ic_exit"
+                android:title="@string/exit" />
+        </menu>
+
+    </item>
 
 </menu>

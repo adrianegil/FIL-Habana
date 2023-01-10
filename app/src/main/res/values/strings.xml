@@ -4,15 +4,35 @@
     <string name="about_us">Acerca de</string>
     <string name="description">Descripción</string>
     <string name="exit">Salir</string>
+    <string name="exit_again_toast">Presione de nuevo atrás para salir</string>
+    <string name="cancel">Cancelar</string>
+    <string name="yes">Si</string>
+    <string name="exit_confirm">Confirmar Salir</string>
+    <string name="exit_confirm_description">Desea realmente salir de la Aplicación</string>
 
     <!-- TODO: LISTADO DE OPCIONES DE LA PANTALLA PRINCIPAL-->
-    <string name="option1">Información General</string>
+    <string name="general_information">Información General</string>
     <string name="option2">Mapa</string>
-    <string name="option3">Subsedes</string>
+    <string name="subsedes">Subsedes</string>
     <string name="option4">Géneros Literarios</string>
-    <string name="option5">Invitados Extranjeros</string>
+    <string name="guest_artists">Invitados Extranjeros</string>
     <string name="option6">Programación Infantil</string>
     <string name="option7">Programación Literaria</string>
     <string name="option8">Programación Artística</string>
+
+    <!-- TODO: LISTADO DE LAS SUBSEDES DE LA PANTALLA PRINCIPAL-->
+    <string name="subsede1">Calle 80 entre 23 y 25, Playa</string>
+    <string name="subsede2">San Rafael 460 entre Lealtad y Campanario, Centro Habana</string>
+    <string name="subsede3">Zanja y Soledad, Centro Habana</string>
+    <string name="subsede4">Calle 23 entre G y H, Vedado</string>
+    <string name="subsede5">Flores 118 entre Agua Dulce y Serafines, Cerro</string>
+    <string name="subsede6">Calle 114 esquina 51, Marianao</string>
+
+    <!-- TODO: LISTADO DE LAS SUBSEDES DE LA PANTALLA PRINCIPAL-->
+    <string name="guest_artist1">Alejandro Carbonel (España)</string>
+    <string name="guest_artist2">Rodrigo Camacho (Argentina)</string>
+    <string name="guest_artist3">Mauricio Pochetino (Italia)</string>
+    <string name="guest_artist4">Mario Hermoso (Chile)</string>
+    <string name="guest_artist5">Candido Martinez (Uruguay)</string>
 
 </resources>

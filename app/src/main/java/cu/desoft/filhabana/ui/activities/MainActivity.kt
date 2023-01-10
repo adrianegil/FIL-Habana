@@ -1,4 +1,4 @@
-package cu.desoft.filhabana
+package cu.desoft.filhabana.ui.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -7,6 +7,7 @@ import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI
+import cu.desoft.filhabana.R
 import cu.desoft.filhabana.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
