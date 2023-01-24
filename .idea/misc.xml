@@ -9,6 +9,7 @@
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/btn_back_style.xml" value="0.2105" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/gradient.xml" value="0.1225" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/ic_back.xml" value="0.2105" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/ic_book.xml" value="0.2105" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/ic_details.xml" value="0.2105" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/ic_exit.xml" value="0.1795" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/ic_flag.xml" value="0.1795" />
@@ -20,10 +21,12 @@
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/ic_more.xml" value="0.1795" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/ic_send.xml" value="0.1795" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/ic_users.xml" value="0.2105" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/selector_tabs.xml" value="0.2105" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/toolbar_style.xml" value="0.1" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout-v26/fragment_description.xml" value="0.25416666666666665" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/activity_map.xml" value="0.2" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/activity_map_subsedes.xml" value="0.25416666666666665" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/fragment_about.xml" value="0.24010416666666667" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/fragment_description.xml" value="0.2" />

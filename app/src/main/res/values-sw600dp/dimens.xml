@@ -2,6 +2,7 @@
 <resources>
     <dimen name="textView_normal_size">25sp</dimen>
     <dimen name="textView_medium_size">35sp</dimen>
+    <dimen name="textView_large_size">45sp</dimen>
     <dimen name="button_normal_height">80dp</dimen>
     <dimen name="button_normal_textSize">25sp</dimen>
     <dimen name="button_normal_iconSize">35dp</dimen>
