@@ -28,14 +28,14 @@ class Datasource() {
 
     fun loadHomeOptions(listNames: Array<String>): List<HomeOption> {
         return listOf<HomeOption>(
-            HomeOption(listNames.get(0), R.drawable.product),
-            HomeOption(listNames.get(1), R.drawable.product),
-            HomeOption(listNames.get(2), R.drawable.product),
-            HomeOption(listNames.get(3), R.drawable.product),
-            HomeOption(listNames.get(4), R.drawable.product),
-            HomeOption(listNames.get(5), R.drawable.product),
-            HomeOption(listNames.get(6), R.drawable.product),
-            HomeOption(listNames.get(7), R.drawable.product),
+            HomeOption(listNames.get(0), R.drawable.icon_general_information),
+            HomeOption(listNames.get(1), R.drawable.icon_map),
+            HomeOption(listNames.get(2), R.drawable.icon_subsedes),
+            HomeOption(listNames.get(3), R.drawable.icon_literary_genres),
+            HomeOption(listNames.get(4), R.drawable.icon_guest),
+            HomeOption(listNames.get(5), R.drawable.icon_literary_program),
+            HomeOption(listNames.get(6), R.drawable.icon_artistic_program),
+            HomeOption(listNames.get(7), R.drawable.icon_child_program),
         )
     }
 

@@ -6,9 +6,9 @@
         <item name="option3">@string/subsedes</item>
         <item name="option4">@string/option4</item>
         <item name="option5">@string/guest_artists</item>
-        <item name="option6">@string/option6</item>
-        <item name="option7">@string/option7</item>
-        <item name="option8">@string/option8</item>
+        <item name="option6">@string/literary_program</item>
+        <item name="option6">@string/artistic_program</item>
+        <item name="option8">@string/child_program</item>
     </string-array>
 
     <string-array name="guest_artist_names">

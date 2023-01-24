@@ -3,19 +3,40 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable-v24/btnBack_style.xml" value="0.2105" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/btnBack_style.xml" value="0.2105" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/btn_back_style.xml" value="0.2105" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/gradient.xml" value="0.1225" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/ic_back.xml" value="0.2105" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/ic_details.xml" value="0.2105" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/ic_exit.xml" value="0.1795" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/ic_flag.xml" value="0.1795" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/ic_flag2.xml" value="0.2105" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/ic_info.xml" value="0.1795" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/ic_location.xml" value="0.1795" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/ic_log.xml" value="0.2105" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/ic_more.xml" value="0.1795" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/ic_send.xml" value="0.1795" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/ic_users.xml" value="0.2105" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/toolbar_style.xml" value="0.1" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout-v26/fragment_description.xml" value="0.25416666666666665" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/activity_map.xml" value="0.2" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/fragment_about.xml" value="0.24010416666666667" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/fragment_description.xml" value="0.2" />
-        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/fragment_general__information.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/fragment_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/fragment_general__information.xml" value="0.4" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/fragment_guest_artist.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/fragment_guest_country.xml" value="0.25416666666666665" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/fragment_home.xml" value="0.146875" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/fragment_honored_authors.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/fragment_literary_program.xml" value="0.25416666666666665" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/fragment_sub_sede.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/general_information_tablayout.xml" value="0.1" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/item_list_guest_artist.xml" value="0.25416666666666665" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/item_list_option.xml" value="0.25416666666666665" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/item_list_subsede.xml" value="0.25416666666666665" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/option_item_list.xml" value="0.2" />

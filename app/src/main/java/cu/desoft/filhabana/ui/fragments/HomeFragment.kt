@@ -4,7 +4,6 @@ import android.app.Activity
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.view.*
-import android.widget.Toast
 import androidx.activity.OnBackPressedCallback
 import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
@@ -78,7 +77,7 @@ class HomeFragment : Fragment() {
     fun initAppLogo() {
         try {
             if (MainActivity.mainActionBar.logo == null)
-                MainActivity.mainActionBar.setLogo(R.drawable.ic_log)
+                MainActivity.mainActionBar.setLogo(R.mipmap.ic_launcher)
         } catch (e: Exception) {
         }
     }
@@ -95,10 +94,6 @@ class HomeFragment : Fragment() {
                 true
             }
             R.id.ic_mores -> {
-                true
-            }
-            R.id.nav_Send_Comment -> {
-                Toast.makeText(context, "Enviar Comentario", Toast.LENGTH_SHORT).show()
                 true
             }
             else -> {

@@ -23,7 +23,7 @@ class AboutFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.descrip.setOnClickListener {
+        binding.btnDescription.setOnClickListener {
             MainActivity.navController.navigate(R.id.go_descriptionFragment)
         }
     }

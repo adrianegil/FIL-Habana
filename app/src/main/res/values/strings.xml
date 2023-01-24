@@ -16,9 +16,9 @@
     <string name="subsedes">Subsedes</string>
     <string name="option4">Géneros Literarios</string>
     <string name="guest_artists">Invitados Extranjeros</string>
-    <string name="option6">Programación Infantil</string>
-    <string name="option7">Programación Literaria</string>
-    <string name="option8">Programación Artística</string>
+    <string name="child_program">Programación Infantil</string>
+    <string name="literary_program">Programación Literaria</string>
+    <string name="artistic_program">Programación Artística</string>
 
     <!-- TODO: LISTADO DE LAS SUBSEDES DE LA PANTALLA PRINCIPAL-->
     <string name="subsede1">Calle 80 entre 23 y 25, Playa</string>
@@ -34,5 +34,15 @@
     <string name="guest_artist3">Mauricio Pochetino (Italia)</string>
     <string name="guest_artist4">Mario Hermoso (Chile)</string>
     <string name="guest_artist5">Candido Martinez (Uruguay)</string>
+    <string name="details">Detalles</string>
+    <string name="guest_country">País Invitado</string>
+    <string name="honored">homenajeados</string>
+
+    <string name="phone">Teléfono</string>
+    <string name="visit_us_at">Visitenos en</string>
+    <string name="filh_website"><u>filhcuba.cu</u></string>
+    <string name="desoft_email"><u>p-sesiones@anpp.gob.cu</u></string>
+    <string name="about_text">Es una aplicación desarrollada por la empresa DESOFT, de conjunto con la Cámara Cubana del Libro</string>
+    <string name="description_app">FIL Habana es una aplicación para dispositivos móviles, con Sistema Operativo Android. Brinda la posibilidad de conocer la información general relacionada con la 31 Feria Internacional del Libro de La Habana 2023. Se podrá conocer a través de mapas la ubicación de las salas, pabellones y carpas de las sedes principales de la feria. Además, cuenta con información relacionada con las Subsedes, Invitados extranjeros y Programación Literaria, Artística e Infantiles.</string>
 
 </resources>

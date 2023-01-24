@@ -31,6 +31,13 @@
             app:exitAnim="@anim/fade_out"
             app:popEnterAnim="@anim/fade_in"
             app:popExitAnim="@anim/fade_out" />
+        <action
+            android:id="@+id/go_literaryProgramFragment"
+            app:destination="@id/literaryProgramFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
     </fragment>
 
     <fragment
@@ -41,10 +48,10 @@
         <action
             android:id="@+id/go_descriptionFragment"
             app:destination="@id/nav_descriptionFragment"
-            app:enterAnim="@anim/slide_in_right"
-            app:exitAnim="@anim/slide_out_left"
-            app:popEnterAnim="@anim/slide_in_left"
-            app:popExitAnim="@anim/slide_out_right" />
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
     </fragment>
 
     <fragment
@@ -55,7 +62,7 @@
 
     <fragment
         android:id="@+id/nav_general_InformationFragment"
-        android:name="cu.desoft.filhabana.ui.fragments.General_InformationFragment"
+        android:name="cu.desoft.filhabana.ui.fragments.InformationFragment"
         android:label="@string/general_information"
         tools:layout="@layout/fragment_general__information" />
 
@@ -70,5 +77,10 @@
         android:name="cu.desoft.filhabana.ui.fragments.GuestArtistFragment"
         android:label="@string/guest_artists"
         tools:layout="@layout/fragment_guest_artist" />
+    <fragment
+        android:id="@+id/literaryProgramFragment"
+        android:name="cu.desoft.filhabana.ui.fragments.LiteraryProgramFragment"
+        android:label="@string/literary_program"
+        tools:layout="@layout/fragment_literary_program" />
 
 </navigation>

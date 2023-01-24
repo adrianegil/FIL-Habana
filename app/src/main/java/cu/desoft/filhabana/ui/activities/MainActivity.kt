@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
     //CONFIGURACIÓN DE LA TOOLBAR CON NAVIGATION COMPONENT
     fun configAppBar() {
         setSupportActionBar(mainActionBar)
-        mainActionBar.setLogo(R.drawable.ic_log)
+        mainActionBar.setLogo(R.mipmap.ic_launcher)
         myAppBarConfiguration = AppBarConfiguration.Builder(
             R.id.nav_homeFragment,
         )
@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
     override fun onRestoreInstanceState(savedInstanceState: Bundle) {
         super.onRestoreInstanceState(savedInstanceState)
         if (savedInstanceState.getBoolean("logoVisible"))
-            mainActionBar.setLogo(R.drawable.ic_log)
+            mainActionBar.setLogo(R.mipmap.ic_launcher)
         else
             mainActionBar.setLogo(null)
     }
