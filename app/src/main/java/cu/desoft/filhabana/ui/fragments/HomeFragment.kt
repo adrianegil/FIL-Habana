@@ -69,7 +69,7 @@ class HomeFragment : Fragment() {
     private fun initRecyclerOptions() {
         val options_names = resources.getStringArray(R.array.home_options_names)
         val optionsList = Datasource().loadHomeOptions(options_names)
-        val optionAdapter = OptionAdapter(optionsList, context)
+        val optionAdapter = OptionAdapter(optionsList, activity)
         binding.recyclerHomeOptions.layoutManager = GridLayoutManager(context, 2)
         binding.recyclerHomeOptions.adapter = optionAdapter
     }

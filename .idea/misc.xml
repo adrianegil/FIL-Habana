@@ -28,6 +28,8 @@
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/activity_map.xml" value="0.2" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/activity_map_subsedes.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/activity_principal_map.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/activity_sedes_map.xml" value="0.25416666666666665" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/fragment_about.xml" value="0.24010416666666667" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/fragment_description.xml" value="0.2" />
@@ -44,6 +46,7 @@
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/item_list_honored_authors.xml" value="0.25416666666666665" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/item_list_option.xml" value="0.25416666666666665" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/item_list_subsede.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/maps_options.xml" value="0.264" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/option_item_list.xml" value="0.2" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/subsede_item_list.xml" value="0.25416666666666665" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/menu/main_menu.xml" value="0.264" />
