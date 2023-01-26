@@ -19,13 +19,8 @@
         <item name="guest_artist5">@string/guest_artist5</item>
     </string-array>
 
-    <string-array name="subsedes_names">
-        <item name="subsede1">@string/subsede1</item>
-        <item name="subsede2">@string/subsede2</item>
-        <item name="subsede3">@string/subsede3</item>
-        <item name="subsede4">@string/subsede4</item>
-        <item name="subsede5">@string/subsede5</item>
-        <item name="subsede6">@string/subsede6</item>
+    <string-array name="honored_authors_names">
+        <item name="name1">Araceli García Carranza Bassetti</item>
+        <item name="name2">Julio Antonio Travieso Serrano</item>
     </string-array>
-
 </resources>

@@ -18,13 +18,6 @@
             app:popEnterAnim="@anim/fade_in"
             app:popExitAnim="@anim/fade_out" />
         <action
-            android:id="@+id/go_subSedeFragment"
-            app:destination="@id/nav_subSedesFragment"
-            app:enterAnim="@anim/fade_in"
-            app:exitAnim="@anim/fade_out"
-            app:popEnterAnim="@anim/fade_in"
-            app:popExitAnim="@anim/fade_out" />
-        <action
             android:id="@+id/go_guestArtistFragment"
             app:destination="@id/nav_guestArtistFragment"
             app:enterAnim="@anim/fade_in"
@@ -65,12 +58,6 @@
         android:name="cu.desoft.filhabana.ui.fragments.InformationFragment"
         android:label="@string/general_information"
         tools:layout="@layout/fragment_general__information" />
-
-    <fragment
-        android:id="@+id/nav_subSedesFragment"
-        android:name="cu.desoft.filhabana.ui.fragments.SubSedeFragment"
-        android:label="@string/subsedes"
-        tools:layout="@layout/fragment_sub_sede" />
 
     <fragment
         android:id="@+id/nav_guestArtistFragment"

@@ -16,9 +16,11 @@
 
 package cu.desoft.filhabana.data
 
+import android.content.Context
 import cu.desoft.filhabana.R
 import cu.desoft.filhabana.data.model.GuestArtist
 import cu.desoft.filhabana.data.model.HomeOption
+import cu.desoft.filhabana.data.model.HonoredAuthor
 import cu.desoft.filhabana.data.model.Subsede
 
 /**
@@ -39,24 +41,33 @@ class Datasource() {
         )
     }
 
-    fun loadSubsedes(listLocationNames: Array<String>): List<Subsede> {
-        return listOf<Subsede>(
-            Subsede(listLocationNames.get(0), R.drawable.product),
-            Subsede(listLocationNames.get(1), R.drawable.product),
-            Subsede(listLocationNames.get(2), R.drawable.product),
-            Subsede(listLocationNames.get(3), R.drawable.product),
-            Subsede(listLocationNames.get(4), R.drawable.product),
-            Subsede(listLocationNames.get(5), R.drawable.product),
+    fun loadGuestArtists(listGuestArtitsNames: Array<String>): List<GuestArtist> {
+        return listOf<GuestArtist>(
+            GuestArtist(listGuestArtitsNames.get(0), R.drawable.product),
+            GuestArtist(listGuestArtitsNames.get(1), R.drawable.product),
+            GuestArtist(listGuestArtitsNames.get(2), R.drawable.product),
+            GuestArtist(listGuestArtitsNames.get(3), R.drawable.product),
+            GuestArtist(listGuestArtitsNames.get(4), R.drawable.product),
         )
     }
 
-    fun loadGuestArtists(listLocationNames: Array<String>): List<GuestArtist> {
-        return listOf<GuestArtist>(
-            GuestArtist(listLocationNames.get(0), R.drawable.product),
-            GuestArtist(listLocationNames.get(1), R.drawable.product),
-            GuestArtist(listLocationNames.get(2), R.drawable.product),
-            GuestArtist(listLocationNames.get(3), R.drawable.product),
-            GuestArtist(listLocationNames.get(4), R.drawable.product),
+    fun loadHonoredAuthors(
+        listHonoredAuthorsNames: Array<String>,
+        context: Context?
+    ): List<HonoredAuthor> {
+        return listOf<HonoredAuthor>(
+            HonoredAuthor(
+                listHonoredAuthorsNames.get(0),
+                context!!.getString(R.string.araceli_description),
+                false,
+                R.drawable.araceli
+            ),
+            HonoredAuthor(
+                listHonoredAuthorsNames.get(1),
+                context.getString(R.string.julio_description),
+                false,
+                R.drawable.julio
+            ),
         )
     }
 }

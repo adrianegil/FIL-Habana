@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable-v24/btnBack_style.xml" value="0.2105" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable-v24/ic_more.xml" value="0.2105" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/btnBack_style.xml" value="0.2105" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/btn_back_style.xml" value="0.2105" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/drawable/gradient.xml" value="0.1225" />
@@ -40,6 +41,7 @@
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/fragment_sub_sede.xml" value="0.25416666666666665" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/general_information_tablayout.xml" value="0.1" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/item_list_guest_artist.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/item_list_honored_authors.xml" value="0.25416666666666665" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/item_list_option.xml" value="0.25416666666666665" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/item_list_subsede.xml" value="0.25416666666666665" />
         <entry key="..\:/Projects/Android/FILHabana/app/src/main/res/layout/option_item_list.xml" value="0.2" />

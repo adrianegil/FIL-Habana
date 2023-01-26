@@ -10,9 +10,7 @@ import android.webkit.WebChromeClient
 import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
-import cu.desoft.filhabana.R
 import cu.desoft.filhabana.databinding.FragmentLiteraryProgramBinding
-import cu.desoft.filhabana.databinding.FragmentSubSedeBinding
 
 class LiteraryProgramFragment : Fragment() {
 
@@ -23,7 +21,6 @@ class LiteraryProgramFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         binding = FragmentLiteraryProgramBinding.inflate(inflater, container, false)
         return binding.root
     }
@@ -34,11 +31,9 @@ class LiteraryProgramFragment : Fragment() {
         binding.refreshLayout.setOnRefreshListener {
             binding.webViewLiteraryProgram.reload()
         }
-
         binding.webViewLiteraryProgram.webChromeClient = object : WebChromeClient() {
 
         }
-
         binding.webViewLiteraryProgram.webViewClient = object : WebViewClient() {
 
             override fun shouldOverrideUrlLoading(
@@ -58,7 +53,6 @@ class LiteraryProgramFragment : Fragment() {
                 binding.refreshLayout.isRefreshing = false
             }
         }
-
         binding.webViewLiteraryProgram.settings.javaScriptEnabled = true
         binding.webViewLiteraryProgram.loadUrl(LITERARY_PROGRAM_URL)
     }

@@ -12,10 +12,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
+        android:backgroundTint="@color/primary"
         android:padding="20dp"
         app:cardCornerRadius="5dp"
         app:cardElevation="8dp"
-        app:strokeColor="@android:color/darker_gray"
+        app:strokeColor="@android:color/white"
         app:strokeWidth="1dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -42,7 +43,8 @@
                 android:layout_marginBottom="12dp"
                 android:gravity="left"
                 android:text="Calle SanRafael entre Lealtad y Campanario, Centro Habana"
-                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textView_medium_size"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
