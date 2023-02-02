@@ -36,4 +36,7 @@
     <string name="guest_country">País Invitado</string>
     <string name="honored">homenajeados</string>
     <string name="select_map">Seleccione el Mapa que desea visualizar</string>
+    <string name="literary_program_info">Las actividades del Programa Literario de la Feria Internacional del Libro de la Habana podrán ser consultadas en su sitio oficial, accediendo desde el menú principal a la opción Programa.\nAdemás, desde el sitio podrá acceder a las publicaciones El Cañonazo para informarse de todo lo que acontece en la Feria.</string>
+    <string name="important_info">Información Importante</string>
+
 </resources>

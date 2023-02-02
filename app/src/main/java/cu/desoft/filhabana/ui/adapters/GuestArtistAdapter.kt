@@ -24,8 +24,8 @@ class GuestArtistAdapter(var guestArtistsList: List<GuestArtist>, var context: C
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.binding.textViewSubsedeLocation.text = guestArtistsList.get(position).stringName
-        holder.binding.imageViewSubsede.setImageResource(guestArtistsList.get(position).imageResourceId)
+        holder.binding.textViewGuestArtist.text = guestArtistsList.get(position).stringName
+        holder.binding.imageGuestArtists.setImageResource(guestArtistsList.get(position).imageResourceId)
     }
 
     override fun getItemCount(): Int {

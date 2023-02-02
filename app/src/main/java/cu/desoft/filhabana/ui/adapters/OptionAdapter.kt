@@ -54,6 +54,14 @@ class OptionAdapter(var optionsList: List<HomeOption>, var context: Activity?) :
                     MainActivity.navController.navigate(R.id.go_literaryProgramFragment)
                     MainActivity.mainActionBar.setLogo(null)
                 }
+                6 -> {
+                    MainActivity.navController.navigate(R.id.go_artisticProgramFragment)
+                    MainActivity.mainActionBar.setLogo(null)
+                }
+                7 -> {
+                    MainActivity.navController.navigate(R.id.go_childProgramFragment)
+                    MainActivity.mainActionBar.setLogo(null)
+                }
             }
         }
     }

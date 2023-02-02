@@ -1,21 +1,25 @@
 package cu.desoft.filhabana.ui.fragments
 
+import android.app.Activity
 import android.graphics.Bitmap
 import android.os.Bundle
+import android.view.*
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
 import android.webkit.WebChromeClient
 import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
+import androidx.navigation.Navigation
+import androidx.navigation.ui.NavigationUI
+import cu.desoft.filhabana.R
 import cu.desoft.filhabana.databinding.FragmentLiteraryProgramBinding
+import cu.desoft.filhabana.ui.activities.MainActivity
+import cu.desoft.filhabana.util.DialogHelper
 
 class LiteraryProgramFragment : Fragment() {
 
     private lateinit var binding: FragmentLiteraryProgramBinding
-    private val LITERARY_PROGRAM_URL = "https://www.google.com/"
+    private val LITERARY_PROGRAM_URL = "https://www.filhcuba.cu/"
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -27,7 +31,7 @@ class LiteraryProgramFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        setHasOptionsMenu(true)
         binding.refreshLayout.setOnRefreshListener {
             binding.webViewLiteraryProgram.reload()
         }
@@ -55,6 +59,28 @@ class LiteraryProgramFragment : Fragment() {
         }
         binding.webViewLiteraryProgram.settings.javaScriptEnabled = true
         binding.webViewLiteraryProgram.loadUrl(LITERARY_PROGRAM_URL)
+        DialogHelper.showLiteraryProgramDialog(requireActivity())
     }
+
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        inflater.inflate(R.menu.literary_program_info, menu)
+        super.onCreateOptionsMenu(menu, inflater)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            R.id.ic_literary_program_info -> {
+                DialogHelper.showLiteraryProgramDialog(requireActivity())
+                true
+            }
+            else -> {
+                super.onOptionsItemSelected(item) || NavigationUI.onNavDestinationSelected(
+                    item,
+                    Navigation.findNavController(activity as Activity, R.id.host_fragment)
+                )
+            }
+        }
+    }
+
 
 }

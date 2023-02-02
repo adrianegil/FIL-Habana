@@ -26,7 +26,21 @@
             app:popExitAnim="@anim/fade_out" />
         <action
             android:id="@+id/go_literaryProgramFragment"
-            app:destination="@id/literaryProgramFragment"
+            app:destination="@id/nav_literaryProgramFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+        <action
+            android:id="@+id/go_childProgramFragment"
+            app:destination="@id/nav_childProgramFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+        <action
+            android:id="@+id/go_artisticProgramFragment"
+            app:destination="@id/nav_artisticProgramFragment"
             app:enterAnim="@anim/fade_in"
             app:exitAnim="@anim/fade_out"
             app:popEnterAnim="@anim/fade_in"
@@ -64,10 +78,21 @@
         android:name="cu.desoft.filhabana.ui.fragments.GuestArtistFragment"
         android:label="@string/guest_artists"
         tools:layout="@layout/fragment_guest_artist" />
+
     <fragment
-        android:id="@+id/literaryProgramFragment"
+        android:id="@+id/nav_literaryProgramFragment"
         android:name="cu.desoft.filhabana.ui.fragments.LiteraryProgramFragment"
         android:label="@string/literary_program"
         tools:layout="@layout/fragment_literary_program" />
+
+    <fragment
+        android:id="@+id/nav_artisticProgramFragment"
+        android:name="cu.desoft.filhabana.ui.fragments.ArtisticProgramFragment"
+        android:label="@string/artistic_program" />
+
+    <fragment
+        android:id="@+id/nav_childProgramFragment"
+        android:name="cu.desoft.filhabana.ui.fragments.ChildProgramFragment"
+        android:label="@string/child_program" />
 
 </navigation>

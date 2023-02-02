@@ -18,6 +18,15 @@ class DialogHelper {
             dialog.setNeutralButton(R.string.cancel) { dialog1: DialogInterface, which: Int -> dialog1.dismiss() }
             dialog.show()
         }
+
+        fun showLiteraryProgramDialog(activity: Activity) {
+            val dialog = AlertDialog.Builder(activity)
+            dialog.setTitle(activity.getString(R.string.important_info))
+            dialog.setMessage(R.string.literary_program_info)
+            dialog.setPositiveButton("Ok") { dialog12: DialogInterface, which: Int -> dialog12.dismiss() }
+            dialog.setNeutralButton(R.string.cancel) { dialog1: DialogInterface, which: Int -> dialog1.dismiss() }
+            dialog.show()
+        }
     }
 
 }
