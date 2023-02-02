@@ -33,7 +33,7 @@ class Datasource() {
             HomeOption(listNames.get(0), R.drawable.icon_general_information),
             HomeOption(listNames.get(1), R.drawable.icon_map),
             HomeOption(listNames.get(2), R.drawable.icon_subsedes),
-            HomeOption(listNames.get(3), R.drawable.icon_literary_genres),
+            HomeOption(listNames.get(3), R.drawable.icon_participants),
             HomeOption(listNames.get(4), R.drawable.icon_guest),
             HomeOption(listNames.get(5), R.drawable.icon_literary_program),
             HomeOption(listNames.get(6), R.drawable.icon_artistic_program),
@@ -43,12 +43,18 @@ class Datasource() {
 
     fun loadGuestArtists(listGuestArtitsNames: Array<String>): List<GuestArtist> {
         return listOf<GuestArtist>(
-            GuestArtist(listGuestArtitsNames.get(0), R.drawable.product),
-            GuestArtist(listGuestArtitsNames.get(1), R.drawable.product),
-            GuestArtist(listGuestArtitsNames.get(2), R.drawable.product),
-            GuestArtist(listGuestArtitsNames.get(3), R.drawable.product),
-            GuestArtist(listGuestArtitsNames.get(4), R.drawable.product),
-        )
+            GuestArtist(listGuestArtitsNames.get(0), R.drawable.alejandro),
+            GuestArtist(listGuestArtitsNames.get(1), R.drawable.fiorela),
+            GuestArtist(listGuestArtitsNames.get(2), R.drawable.hernan),
+            GuestArtist(listGuestArtitsNames.get(3), R.drawable.ivan),
+            GuestArtist(listGuestArtitsNames.get(4), R.drawable.luis),
+            GuestArtist(listGuestArtitsNames.get(5), R.drawable.maria),
+            GuestArtist(listGuestArtitsNames.get(6), R.drawable.maria_isabel),
+            GuestArtist(listGuestArtitsNames.get(7), R.drawable.mary),
+            GuestArtist(listGuestArtitsNames.get(8), R.drawable.oscar),
+            GuestArtist(listGuestArtitsNames.get(9), R.drawable.patricio),
+
+            )
     }
 
     fun loadHonoredAuthors(

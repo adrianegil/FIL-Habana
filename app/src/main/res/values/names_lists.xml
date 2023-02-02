@@ -4,19 +4,24 @@
         <item name="option1">@string/general_information</item>
         <item name="option2">@string/option2</item>
         <item name="option3">@string/subsedes</item>
-        <item name="option4">@string/option4</item>
+        <item name="option4">@string/participants</item>
         <item name="option5">@string/guest_artists</item>
         <item name="option6">@string/literary_program</item>
-        <item name="option6">@string/artistic_program</item>
+        <item name="option7">@string/artistic_program</item>
         <item name="option8">@string/child_program</item>
     </string-array>
 
     <string-array name="guest_artist_names">
-        <item name="guest_artist1">@string/guest_artist1</item>
-        <item name="guest_artist2">@string/guest_artist2</item>
-        <item name="guest_artist3">@string/guest_artist3</item>
-        <item name="guest_artist4">@string/guest_artist4</item>
-        <item name="guest_artist5">@string/guest_artist5</item>
+        <item name="guest_artist1">Alejandro Terraza González (Chile)</item>
+        <item name="guest_artist2">Fiorela Fercé (Chile)</item>
+        <item name="guest_artist3">Hernán Rivera Letelier (Chile)</item>
+        <item name="guest_artist4">Iván Ramírez Araya (Chile)</item>
+        <item name="guest_artist5">Luis Felipe Aljure Vargas (Colombia)</item>
+        <item name="guest_artist6">María del Sol Peralta (Venezuela)</item>
+        <item name="guest_artist7">María Isabel Mena (Colombia)</item>
+        <item name="guest_artist8">Mary Grueso Romero (Colombia)</item>
+        <item name="guest_artist9">Oscar Alejandro Mellado Torres (Chile)</item>
+        <item name="guest_artist10">Patricio Marcelo Rojas Figueroa (Chile)</item>
     </string-array>
 
     <string-array name="honored_authors_names">

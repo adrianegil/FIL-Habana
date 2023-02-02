@@ -26,18 +26,12 @@
     <string name="general_information">Información General</string>
     <string name="option2">Mapa</string>
     <string name="subsedes">Subsedes</string>
-    <string name="option4">Géneros Literarios</string>
+    <string name="participants">Participantes</string>
     <string name="guest_artists">Invitados Extranjeros</string>
     <string name="child_program">Programación Infantil</string>
     <string name="literary_program">Programación Literaria</string>
     <string name="artistic_program">Programación Artística</string>
 
-    <!-- TODO: LISTADO DE LAS SUBSEDES DE LA PANTALLA PRINCIPAL-->
-    <string name="guest_artist1">Alejandro Carbonel (España)</string>
-    <string name="guest_artist2">Rodrigo Camacho (Argentina)</string>
-    <string name="guest_artist3">Mauricio Pochetino (Italia)</string>
-    <string name="guest_artist4">Mario Hermoso (Chile)</string>
-    <string name="guest_artist5">Candido Martinez (Uruguay)</string>
     <string name="details">Detalles</string>
     <string name="guest_country">País Invitado</string>
     <string name="honored">homenajeados</string>

@@ -16,7 +16,7 @@
         <activity
             android:name=".ui.activities.SplashActivity"
             android:exported="true"
-            android:screenOrientation="fullSensor">
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,6 +25,7 @@
         </activity>
         <activity
             android:name=".ui.activities.MainActivity"
+            android:configChanges="orientation|screenSize"
             android:exported="true" />
         <activity
             android:name=".ui.activities.SedesMapActivity"
