@@ -14,8 +14,8 @@
 
         <ImageView
             android:id="@+id/imageViewOption"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="@dimen/icon_option_size"
+            android:layout_height="@dimen/icon_option_size"
             android:layout_margin="5dp"
             android:src="@drawable/icon_general_information"
             app:layout_constraintEnd_toEndOf="parent"

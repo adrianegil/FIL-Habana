@@ -25,8 +25,11 @@ class InformationFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.generalInformationViewPager.adapter =
+        /*binding.generalInformationViewPager.adapter =
             InformationTabsAdapter(requireActivity().supportFragmentManager, lifecycle)
+*/
+        binding.generalInformationViewPager.adapter =
+            InformationTabsAdapter(childFragmentManager, lifecycle)
 
         binding.generalInformationViewPager.registerOnPageChangeCallback(object :
             ViewPager2.OnPageChangeCallback() {

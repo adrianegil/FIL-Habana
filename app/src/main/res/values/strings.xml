@@ -1,6 +1,15 @@
 <resources>
+    <!-- TODO: LISTADO DE OPCIONES DE LA PANTALLA PRINCIPAL-->
+    <string name="general_information">Información General</string>
+    <string name="option2">Mapa</string>
+    <string name="subsedes">Subsedes</string>
+    <string name="participants">Participantes</string>
+    <string name="guest_artists">Invitados Extranjeros</string>
+    <string name="child_program">Programación Infantil</string>
+    <string name="literary_program">Programación Literaria</string>
+    <string name="artistic_program">Programación Artística</string>
+    <!-- TODO: MY STRINGS-->
     <string name="app_name">FIL Habana</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="about_us">Acerca de</string>
     <string name="description">Descripción</string>
     <string name="exit">Salir</string>
@@ -21,22 +30,14 @@
     <string name="julio_description">La Habana, 1940\n\nPremio Nacional de Literatura 2021. Narrador y escritor de varios libros de cuentos y novelas. Entre sus obras más destacadas se encuentran Cuando la noche muera y Llueve sobre la Habana. Sus textos han sido traducidos a varios idiomas como el alemán e italiano. Posee la orden A.S.Pushkin que confiere el Estado ruso por el conjunto de su obra.\n\nSu obra narrativa integrada por algunos libros de cuentos y varias novelas ha abordado, con acierto e inteligencia, diversas problemáticas del hombre y su mundo. Su prosa limpia, sencilla y diáfana, es un eficaz instrumento de un discurso narrativo de indudable alcance en el contexto de la actual literatura cubana.\n\nEn su extensa obra destacan los títulos Para matar al lobo, 1971, mención en el Premio Casa de las Américas y filmada por la Televisión Cubana, Cuando la noche muera, 1981 Premio de novela Cirilo Villaverde de la Unión de Escritores y Artistas de Cuba, también filmada por la Televisión Cubana, El polvo y el oro, Letras Cubanas, 1996  (novela) Premio Mazatlán de Literatura de México, Premio de la Crítica Literaria de Cuba, finalista del Premio Rómulo Gallegos de Venezuela y publicada en México, Cuba, España e Italia y El cuaderno de los disparates, Ediciones Unión, 2018\n\nSu obra ha sido traducida al alemán, búlgaro, checo, georgiano, lituano, polaco, ruso, turco, francés, ucraniano, italiano, portugués e inglés.</string>
     <string name="principal_map">PARQUE HISTÓRICO MILITAR MORRO-CABAÑA</string>
     <string name="sedes_map">CENTRO HISTÓRICO DE LA CIUDAD SEDES</string>
-
-    <!-- TODO: LISTADO DE OPCIONES DE LA PANTALLA PRINCIPAL-->
-    <string name="general_information">Información General</string>
-    <string name="option2">Mapa</string>
-    <string name="subsedes">Subsedes</string>
-    <string name="participants">Participantes</string>
-    <string name="guest_artists">Invitados Extranjeros</string>
-    <string name="child_program">Programación Infantil</string>
-    <string name="literary_program">Programación Literaria</string>
-    <string name="artistic_program">Programación Artística</string>
-
     <string name="details">Detalles</string>
     <string name="guest_country">País Invitado</string>
     <string name="honored">homenajeados</string>
     <string name="select_map">Seleccione el Mapa que desea visualizar</string>
     <string name="literary_program_info">Las actividades del Programa Literario de la Feria Internacional del Libro de la Habana podrán ser consultadas en su sitio oficial, accediendo desde el menú principal a la opción Programa.\nAdemás, desde el sitio podrá acceder a las publicaciones El Cañonazo para informarse de todo lo que acontece en la Feria.</string>
     <string name="important_info">Información Importante</string>
-
+    <string name="carps">Carpas</string>
+    <string name="stands">Pabellones</string>
+    <string name="search_for_name">Buscar por Nombre</string>
+    <string name="topics">Temáticas</string>
 </resources>

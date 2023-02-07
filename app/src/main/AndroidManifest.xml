@@ -23,18 +23,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".ui.activities.MainActivity"
-            android:configChanges="orientation|screenSize"
             android:exported="true" />
+
         <activity
             android:name=".ui.activities.SedesMapActivity"
             android:exported="false"
             android:screenOrientation="landscape" />
+
         <activity
             android:name=".ui.activities.PrincipalMapActivity"
             android:exported="false"
             android:screenOrientation="landscape" />
+
         <activity
             android:name=".ui.activities.SubsedesMapActivity"
             android:exported="false"

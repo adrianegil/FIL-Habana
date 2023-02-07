@@ -45,6 +45,13 @@
             app:exitAnim="@anim/fade_out"
             app:popEnterAnim="@anim/fade_in"
             app:popExitAnim="@anim/fade_out" />
+        <action
+            android:id="@+id/go_participantsFragment"
+            app:destination="@id/nav_participantsFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
     </fragment>
 
     <fragment
@@ -94,5 +101,11 @@
         android:id="@+id/nav_childProgramFragment"
         android:name="cu.desoft.filhabana.ui.fragments.ChildProgramFragment"
         android:label="@string/child_program" />
+
+    <fragment
+        android:id="@+id/nav_participantsFragment"
+        android:name="cu.desoft.filhabana.ui.fragments.ParticipantsFragment"
+        android:label="@string/participants"
+        tools:layout="@layout/fragment_participants" />
 
 </navigation>

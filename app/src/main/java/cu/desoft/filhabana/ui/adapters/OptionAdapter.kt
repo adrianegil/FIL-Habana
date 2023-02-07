@@ -1,7 +1,6 @@
 package cu.desoft.filhabana.ui.adapters
 
 import android.app.Activity
-import android.content.Context
 import android.content.DialogInterface
 import android.content.Intent
 import android.view.LayoutInflater
@@ -45,6 +44,10 @@ class OptionAdapter(var optionsList: List<HomeOption>, var context: Activity?) :
                 }
                 2 -> {
                     context?.startActivity(Intent(context, SubsedesMapActivity::class.java))
+                }
+                3 -> {
+                    MainActivity.navController.navigate(R.id.go_participantsFragment)
+                    MainActivity.mainActionBar.setLogo(null)
                 }
                 4 -> {
                     MainActivity.navController.navigate(R.id.go_guestArtistFragment)

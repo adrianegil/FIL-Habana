@@ -9,4 +9,6 @@
     <dimen name="button_normal_cornerRadius">6dp</dimen>
     <dimen name="icon_normal_heigth">25dp</dimen>
     <dimen name="icon_normal_width">25dp</dimen>
+    <dimen name="image_heigth">570dp</dimen>
+    <dimen name="icon_option_size">250dp</dimen>
 </resources>
