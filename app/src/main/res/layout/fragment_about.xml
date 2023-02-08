@@ -44,7 +44,7 @@
             android:id="@+id/textViewAppVersion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
+            android:layout_marginTop="6dp"
             android:text="Versión 1.0"
             android:textColor="@color/gray"
             android:textSize="@dimen/textView_normal_size"
@@ -81,11 +81,12 @@
             app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
         <TextView
-            android:id="@+id/textViewDESOFTSiteWeb"
+            android:id="@+id/textFILHabanaSiteWeb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:focusable="true"
             android:text="@string/filh_website"
-            android:textColor="@color/white"
+            android:textColor="@color/focusable_link"
             android:textSize="@dimen/textView_normal_size"
             app:layout_constraintEnd_toEndOf="@+id/textView6"
             app:layout_constraintStart_toStartOf="@+id/textView6"
@@ -120,7 +121,7 @@
             app:layout_constraintBottom_toTopOf="@+id/textView12"
             app:layout_constraintEnd_toStartOf="@+id/guideline10"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textViewDESOFTSiteWeb"
+            app:layout_constraintTop_toBottomOf="@+id/textFILHabanaSiteWeb"
             app:srcCompat="@drawable/logo_desoft" />
 
         <ImageView
@@ -132,7 +133,7 @@
             app:layout_constraintBottom_toTopOf="@+id/textView12"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guideline10"
-            app:layout_constraintTop_toBottomOf="@+id/textViewDESOFTSiteWeb"
+            app:layout_constraintTop_toBottomOf="@+id/textFILHabanaSiteWeb"
             app:srcCompat="@drawable/logo_entumovil" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
