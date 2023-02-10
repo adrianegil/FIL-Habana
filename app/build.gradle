@@ -16,7 +16,7 @@ android {
 
         def versionMajor = 2023 // AÑO
         def versionMinor = 2    // MES
-        def versionBuild = 8    // DIA
+        def versionBuild = 9    // DIA
 
         def beta = false
 

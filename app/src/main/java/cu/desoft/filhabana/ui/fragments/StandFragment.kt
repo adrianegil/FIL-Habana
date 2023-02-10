@@ -33,6 +33,7 @@ class StandFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
         initRecyclerStands()
 
         val mSearchManager =
@@ -51,11 +52,9 @@ class StandFragment : Fragment() {
             Log.d("searchStand", "EXCE " + e.message)
         }
 
-        binding.searchStand.setOnSearchClickListener(View.OnClickListener { v: View? ->
-            binding.searchStand.setImeOptions(
-                EditorInfo.IME_ACTION_SEARCH
-            )
-        })
+        binding.searchStand.setOnSearchClickListener {
+            binding.searchStand.imeOptions = EditorInfo.IME_ACTION_SEARCH
+        }
         binding.searchStand.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(arg0: String): Boolean {
                 Log.d("searchStand", "text submit $arg0")
@@ -65,7 +64,7 @@ class StandFragment : Fragment() {
             override fun onQueryTextChange(arg0: String): Boolean {
                 Log.d("searchStand", "text change $arg0")
                 val filteredStandList: MutableList<Stand> = ArrayList()
-                if (arg0 == null || arg0.length == 0) {
+                if (arg0.isEmpty()) {
                     filteredStandList.addAll(standList)
                 } else {
                     val filterPattern = arg0.toLowerCase().trim { it <= ' ' }
@@ -93,8 +92,8 @@ class StandFragment : Fragment() {
     private fun initRecyclerStands() {
         standList = Datasource().loadStands()
         standAdapter = StandAdapter(standList, context)
-        standAdapter.setHasStableIds(true)
         binding.recyclerStand.layoutManager = LinearLayoutManager(context)
         binding.recyclerStand.adapter = standAdapter
     }
+
 }
