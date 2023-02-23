@@ -18,7 +18,6 @@ import cu.desoft.filhabana.ui.activities.PrincipalMapActivity
 import cu.desoft.filhabana.ui.activities.SedesMapActivity
 import cu.desoft.filhabana.ui.activities.SubsedesMapActivity
 
-
 class OptionAdapter(var optionsList: List<HomeOption>, var context: Activity?) :
     RecyclerView.Adapter<OptionAdapter.ViewHolder>() {
 

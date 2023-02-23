@@ -54,7 +54,6 @@ class InformationFragment : Fragment() {
             override fun onTabReselected(tab: TabLayout.Tab?) {
             }
         })
-
     }
 
 }

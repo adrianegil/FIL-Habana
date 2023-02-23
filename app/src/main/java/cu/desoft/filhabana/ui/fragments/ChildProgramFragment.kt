@@ -2,7 +2,6 @@ package cu.desoft.filhabana.ui.fragments
 
 import android.graphics.Bitmap
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -10,19 +9,13 @@ import android.webkit.WebChromeClient
 import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
-import cu.desoft.filhabana.R
+import androidx.fragment.app.Fragment
 import cu.desoft.filhabana.databinding.FragmentChildProgramBinding
-import cu.desoft.filhabana.databinding.FragmentLiteraryProgramBinding
 
 class ChildProgramFragment : Fragment() {
 
     private lateinit var binding: FragmentChildProgramBinding
     private val CHILD_PROGRAM_URL = "https://www.filhcuba.cu/sala-dora-alonso"
-
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

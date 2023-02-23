@@ -27,6 +27,7 @@ android {
         if (beta)
             versionNameText = "${versionNameText} BETA"
 
+        //versionCode Long.parseLong(versionNameText)
         versionCode versionMajor
         versionName "${versionNameText}"
 

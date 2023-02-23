@@ -4,16 +4,15 @@ import android.app.Activity
 import android.graphics.Bitmap
 import android.os.Bundle
 import android.view.*
-import androidx.fragment.app.Fragment
 import android.webkit.WebChromeClient
 import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
+import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
 import cu.desoft.filhabana.R
 import cu.desoft.filhabana.databinding.FragmentLiteraryProgramBinding
-import cu.desoft.filhabana.ui.activities.MainActivity
 import cu.desoft.filhabana.util.DialogHelper
 
 class LiteraryProgramFragment : Fragment() {
@@ -81,6 +80,5 @@ class LiteraryProgramFragment : Fragment() {
             }
         }
     }
-
 
 }

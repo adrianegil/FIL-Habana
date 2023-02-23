@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.viewpager.widget.ViewPager
-import com.google.android.material.tabs.TabLayout
 import cu.desoft.filhabana.R
 import cu.desoft.filhabana.databinding.FragmentParticipantsBinding
 import cu.desoft.filhabana.ui.adapters.ParticipantAdapter

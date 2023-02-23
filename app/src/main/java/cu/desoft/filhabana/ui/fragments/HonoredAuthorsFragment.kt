@@ -1,12 +1,11 @@
 package cu.desoft.filhabana.ui.fragments
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import cu.desoft.filhabana.MainApplication
 import cu.desoft.filhabana.R
 import cu.desoft.filhabana.data.Datasource
 import cu.desoft.filhabana.databinding.FragmentHonoredAuthorsBinding

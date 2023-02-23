@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import cu.desoft.filhabana.R
 import cu.desoft.filhabana.databinding.ActivitySplashBinding
 
 class SplashActivity : AppCompatActivity() {
